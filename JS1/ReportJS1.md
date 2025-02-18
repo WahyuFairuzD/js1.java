@@ -1,7 +1,10 @@
 
 # HOLAAA IM Wahyu Fairuz Daniswara
-
+CLASS:TI 1I
+ABSENT: 26
+NIM:244107020225
 # Labs #1 Programming Fundamentals Review
+
 
 ## 2.1.1. Selection Solution
 
