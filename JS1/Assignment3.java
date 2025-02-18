@@ -123,6 +123,7 @@ public class Assignment3 {
                     System.out.println("Invalid Option. Please Try Again");
                     break;
             }
-}
-}
+        }
+
+    }
 }
