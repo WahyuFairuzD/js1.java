@@ -1,4 +1,4 @@
-package JS1;
+package Alg.JS2;
 
 public class RoyalGarden {
     static int AGLONEMA_PRICE = 75000;

@@ -1,4 +1,4 @@
-package JS1.Jobsheet3;
+package Alg.Jobsheet3;
 import java.util.Scanner;
 
 public class RectangleMain {

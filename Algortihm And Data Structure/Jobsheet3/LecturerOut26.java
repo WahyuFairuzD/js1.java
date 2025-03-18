@@ -1,4 +1,4 @@
-package JS1.Jobsheet3;
+package Alg.Jobsheet3;
 
 public class LecturerOut26 {
     private boolean isMale;

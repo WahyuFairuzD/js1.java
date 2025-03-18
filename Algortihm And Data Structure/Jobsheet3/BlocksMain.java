@@ -1,4 +1,4 @@
-package JS1.Jobsheet3;
+package Alg.Jobsheet3;
 
 public class BlocksMain {
     public static void main(String[] args) {

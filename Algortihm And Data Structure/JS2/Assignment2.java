@@ -1,4 +1,4 @@
-package JS1;
+package Alg.JS2;
 import java.util.Scanner;
 
 public class Assignment2 {
