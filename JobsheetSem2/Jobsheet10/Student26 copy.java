@@ -1,3 +1,4 @@
+package Jobsheet10;
 public class Student26 {
     String name, nim, className;
     int grade;

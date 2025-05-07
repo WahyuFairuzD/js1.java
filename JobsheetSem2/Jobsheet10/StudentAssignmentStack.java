@@ -1,3 +1,4 @@
+package Jobsheet10;
 public class StudentAssignmentStack {
     Student26[] stack;
     int top, size;
