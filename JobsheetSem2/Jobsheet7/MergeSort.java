@@ -1,3 +1,5 @@
+package JobsheetSem2.Jobsheet7;
+
 public class MergeSort {
     public void mergeSort(int[] data){
         sort(data, 0, data.length - 1);

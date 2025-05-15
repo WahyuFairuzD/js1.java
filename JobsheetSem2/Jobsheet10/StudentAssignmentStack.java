@@ -1,4 +1,7 @@
 package Jobsheet10;
+
+import jobsheet12.Student26;
+
 public class StudentAssignmentStack {
     Student26[] stack;
     int top, size;

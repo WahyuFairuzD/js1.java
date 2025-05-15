@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import jobsheet12.Student26;
+
 public class StudentDemo6 {
     public static void main(String[] args) {
         StudentAssignmentStack stack = new StudentAssignmentStack(5);
