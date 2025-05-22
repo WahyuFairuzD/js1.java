@@ -1,7 +1,9 @@
 package Jobsheet13; 
  
 public class Student { 
-    String nim, name, className; 
+    public String nim;
+    String name;
+    String className; 
     double gpa; 
  
     public Student(){ 
@@ -12,7 +14,7 @@ public class Student {
         className = kls; 
         gpa = ip; 
     } 
-    void print(){ 
+    public void print(){ 
         System.out.println(nim+" - "+name+" - "+className+" - "+gpa); 
     }}
     

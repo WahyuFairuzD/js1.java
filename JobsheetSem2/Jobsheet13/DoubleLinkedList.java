@@ -1,35 +1,5 @@
 package Jobsheet13;
 
-class Student {
-    String nim;
-    String name;
-    String className;
-    double gpa;
-
-    public Student(String nim, String name, String className, double gpa) {
-        this.nim = nim;
-        this.name = name;
-        this.className = className;
-        this.gpa = gpa;
-    }
-
-    public void print() {
-        System.out.println("NIM: " + nim + ", Name: " + name + ", Class: " + className + ", GPA: " + gpa);
-    }
-}
-
-class Node {
-    Student data;
-    Node next;
-    Node prev;
-
-    Node(Student data) {
-        this.data = data;
-        this.next = null;
-        this.prev = null;
-    }
-}
-
 public class DoubleLinkedList {
     Node head;
     Node tail;
