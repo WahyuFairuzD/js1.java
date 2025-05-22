@@ -8,7 +8,7 @@ public class Assignment26 {
         StudentQueue26 queue = new StudentQueue26();
 
         while (true) {
-            System.out.println("-----Student Service Queue----");
+            System.out.println("\n ----Student Service Queue----");
             System.out.println("1.Register Student");
             System.out.println("2. Call Next Student");
             System.out.println("3.Check if the Queue is empty");
