@@ -1,4 +1,4 @@
-package Jobsheet13;
+package Jobsheet13.Experiment;
 
 public class Node {
         Student data; 

@@ -30,5 +30,7 @@ public class Student26 {
     public String getNim(){
         return nim;
 
-}}
+  } 
+
+}
 

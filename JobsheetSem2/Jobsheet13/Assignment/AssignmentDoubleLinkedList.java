@@ -1,6 +1,5 @@
 package Jobsheet13.Assignment;
 
-import Jobsheet13.Student;
 
 public class AssignmentDoubleLinkedList {
     Node head;
@@ -39,8 +38,8 @@ public class AssignmentDoubleLinkedList {
         }
     }
     
-    void insertAfter(String key, Student data){
-        Node newNode = new Node(data);
+    void insertAfter(String key, Student26 data){
+        Node newNode = new Node();
         Node temp = head;
         while(temp != null){
             if(temp.data.nim.equalsIgnoreCase(key)){
@@ -112,18 +111,22 @@ public class AssignmentDoubleLinkedList {
         }
     }
     
-    void print(){
-        if(!isEmpty()){
-            Node temp = head;
-            while(temp != null){
+   void print() {
+    if (!isEmpty()) {
+        Node temp = head;
+        while (temp != null) {
+            if (temp.data != null) {
                 temp.data.print();
-                temp = temp.next;
+            } else {
+                System.out.println("Data kosong pada node.");
             }
-            System.out.println("");
-        }else{
-            System.out.println("Double linked list is currently empty!!");
+            temp = temp.next;
         }
+    } else {
+        System.out.println("x: Double linked list is currently empty!!");
     }
+}
+
      // ========== ASSIGNMENT METHODS ==========
     
     // Assignment 1: Add function to insert node at specific index
@@ -190,7 +193,7 @@ public class AssignmentDoubleLinkedList {
     }
     
     // Assignment 3: Get methods
-    Student getFirst() {
+    Student26 getFirst() {
         if(isEmpty()) {
             System.out.println("Double linked list is currently empty!!");
             return null;
@@ -198,7 +201,7 @@ public class AssignmentDoubleLinkedList {
         return head.data;
     }
     
-    Student getLast() {
+    Student26 getLast() {
         if(isEmpty()) {
             System.out.println("Double linked list is currently empty!!");
             return null;
@@ -206,7 +209,7 @@ public class AssignmentDoubleLinkedList {
         return tail.data;
     }
     
-    Student getIndex(int index) {
+    Student26 getIndex(int index) {
         if(isEmpty()) {
             System.out.println("Double linked list is currently empty!!");
             return null;

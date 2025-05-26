@@ -1,5 +1,6 @@
 package Jobsheet13.Assignment;
-class DoubleLinkedListsAssignmentTest {
+
+public class DoubleLinkedListsAssignmentTest {
     public static void main(String[] args) {
         AssignmentDoubleLinkedList dll = new AssignmentDoubleLinkedList();
         
@@ -41,19 +42,19 @@ class DoubleLinkedListsAssignmentTest {
         Object first = dll.getFirst();
         if(first != null) {
             System.out.print("First student: ");
-            ((AssignmentDoubleLinkedList) first).print();
+            ((Student26) first).print();
         }
         
         Object last = dll.getLast();
         if(last != null) {
             System.out.print("Last student: ");
-            ((AssignmentDoubleLinkedList) last).print();
+            ((Student26) last).print();
         }
         
         Object atIndex2 = dll.getIndex(2);
         if(atIndex2 != null) {
             System.out.print("Student at index 2: ");
-            ((AssignmentDoubleLinkedList) atIndex2).print();
+            ((Student26) atIndex2).print();
         }
         
         // Test Assignment 4: getSize()
