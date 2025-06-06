@@ -1,6 +1,8 @@
 package jobsheet12;
 public class Student26 {
-  String nim, name, className;
+  public String nim;
+  public String name;
+  public String className;
   double gpa;
  
    public Student26() {
@@ -13,5 +15,9 @@ public class Student26 {
    }
    void print(){
     System.out.println(nim+" - "+name+" - "+className+" - "+gpa);
+   }
+   public void tugasDInilai(int nilai) {
+    // TODO Auto-generated method stub
+    throw new UnsupportedOperationException("Unimplemented method 'tugasDInilai'");
    }
 }

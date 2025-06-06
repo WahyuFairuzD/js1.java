@@ -1,3 +1,5 @@
+package Jobsheet10;
+
 import java.util.Scanner;
 
 import jobsheet12.Student26;
@@ -7,6 +9,7 @@ public class StudentDemo6 {
         StudentAssignmentStack stack = new StudentAssignmentStack(5);
         Scanner input = new Scanner(System.in);
 
+        int pilih = 0;
         do {
             System.out.println("\nMenu:");
             System.out.println("1. Mengumpulkan Tugas");
@@ -24,15 +27,16 @@ public class StudentDemo6 {
                     String nim = input.nextLine();
                     System.out.println("Class: ");
                     String kelas = input.nextLine();
-                    Student26 std = new Student26(nama, nim, kelas);
+                    Student26 std = new Student26(nama, nim, kelas, choose);
                     stack.push(std);
                     System.out.printf("Task %s success to submit\n", std.name);
                     break;
                 case 2:
                 Student26 Dinilai = stack.pop();
                 if (Dinilai != null) {
-                    System.out.println();("Task %s success to evaluate\n", Dinilai.name);
+                    System.out.println("Task %s success to evaluate\n");
                     System.out.print("Give a score: ");
+                    Scanner scan = null;
                     int nilai = scan.nextInt();
                     input.nextLine();
                     Dinilai.tugasDInilai(nilai);
