@@ -12,7 +12,8 @@ public class Student26 {
    ipk = ip;
   }
  void print(){
- System.out.println(nim+" - "+name+" - "+className+" - "+ipk");"
+System.out.println(nim+" - "+name+" - "+className+" - "+ipk);
+
  }
     
  }
